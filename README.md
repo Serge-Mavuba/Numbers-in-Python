@@ -1,5 +1,5 @@
 Numbers in Python
 -----------------
-# There 3 types of numbers in Python (version3)
-# int, float, and complex
-# Let's look closely at each one of them
+# There 3 types of nummbers in Python (version3)
+# int, float, complex
+# Note: Open Notepad, run the program, then place the cursor anywhere inside your text editor
