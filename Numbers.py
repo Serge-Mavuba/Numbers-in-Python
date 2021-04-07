@@ -55,7 +55,7 @@ print()
 print()
 
 
-time.sleep(0.1)
+time.sleep(2)
 sentence = "This is my tutorial on Numbers in Python"
 for c in sentence:
     keyboard.press(c)
