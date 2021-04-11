@@ -13,6 +13,9 @@ import time
 
 import random
 
+# import subprocess module
+import subprocess as sp
+
 # integer
 a = 1977
 type(a)  # you can see the data type by using the type function
@@ -53,13 +56,17 @@ print(c.imag)
 print()
 
 print()
+# name program to open
+programname = "Notepad.exe"
 
+# now open 
+sp.Popen(programname)
 
-time.sleep(2)
-sentence = "This is my tutorial on Numbers in Python"
+time.sleep(1)
+sentence = "This is a short tutorial on Numbers in Python\n\nKey Takeaways:\nThere 3 types of numbers in Python: int, float, complex\nIntegers are like whole numbers, but they also include negative numbers\nFloats are how decimal values are stored\nA complex number has a real part and an imaginary part\n\n-[S3]RGE"
+
 for c in sentence:
     keyboard.press(c)
     keyboard.release(c)
     delay = random.uniform(0,0.2)
     time.sleep(0.1)
-    
